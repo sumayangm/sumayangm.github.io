@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=R, initial-scale=1.0">
+    <title>New Employee Form</title>
+    <link rel="stylesheet" href="External_Registration.css">
+</head>
+<body>
+    <h1>New Employee Information</h1>
+    <form>
+        <fieldset>
+            <legend>Employee Data</legend>
+            <label>Last Name: <input type="text" name ="last_name"></label>
+            <label>First Name: <input type="text" name ="first_name"></label>
+            <label>Middle Name: <input type="text" name ="middle_name"></label>
+            <label>SSN: <input type="text" name="SSN"></label>
+            <br><br>
+            <label> Current Address: <input type="text" name="current_address"></label>
+            <label>City: <input type="text" name="current_city"></label>
+            <label>State: <input type="text" name="current_state"></label>
+            <label>Zip Code: <input type="text" name="current_zip_code"></label>
+            <label>Phone: <input type="text" name="current_phone" id=""></label>
+            <label>How long at prior address? <input type="text" name="current_duration"></label><br><br>
+            <label>Prior Address: <input type="text" name="prior_address"></label>
+            <label>City: <input type="text" name="prior_city"></label>
+            <label>State: <input type="text" name="prior_state"></label>
+            <label>Zip: <input type="text" name="prior_zip"></label>
+            <label>Phone: <input type="text" name="prior_phone"></label>
+            <label>How long at prior address? <input type="text" name="prior_duration"></label>
+            <br><br>
+            <label>Are you over 18? 
+                <input type="radio" name="over_18" value="yes"> Yes
+                <input type="radio" name="over_18" value="no"> No
+            </label>
+            <label>Sex: 
+                <input type="radio" name="sex" value="male"> Male
+                <input type="radio" name="sex" value="female"> Female
+            </label>
+            <label>Worked here before? 
+                <input type="radio" name="worked_before" value="yes"> Yes
+                <input type="radio" name="worked_before" value="no"> No
+            </label>
+            <label>If yes, when? <input type="text" name="when_worked"></label>
+            <label>Friends/Relatives here: <input type="text" name="relatives"></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Emergency Contact Information</legend>
+            <label>Name: <input type="text" name="emergency_name"></label>
+            <label>Address: <input type="text" name="emergency_address"></label>
+            <label>City: <input type="text" name="emergency_city"></label>
+            <label>State: <input type="text" name="emergency_state"></label>
+            <label>Zip: <input type="text" name="emergency_zip"></label>
+            <label>Home Phone: <input type="text" name="emergency_home_phone"></label>
+            <label>Work Phone: <input type="text" name="emergency_work_phone"></label>
+            <label>Relation: <input type="text" name="emergency_relation"></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Position Desired</legend>
+            <label>Position: <input type="text" name="position"></label>
+            <label>Date to Start: <input type="date" name="start_date"></label>
+            <label>Currently Employed? 
+                <input type="radio" name="currently_employed" value="yes"> Yes
+                <input type="radio" name="currently_employed" value="no"> No
+            </label>
+            <label>Contact current employer? 
+                <input type="radio" name="contact_employer" value="yes"> Yes
+                <input type="radio" name="contact_employer" value="no"> No
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Employment History</legend>
+            <label>Company 1: <input type="text" name="company1"></label>
+            <label>Address: <input type="text" name="company1_address"></label>
+            <label>Phone: <input type="text" name="company1_phone"></label>
+            <label>Supervisor: <input type="text" name="company1_supervisor"></label>
+            <br><br>
+            <label>Company 2: <input type="text" name="company2"></label>
+            <label>Address: <input type="text" name="company2_address"></label>
+            <label>Phone: <input type="text" name="company2_phone"></label>
+            <label>Supervisor: <input type="text" name="company2_supervisor"></label>
+            <br><br>
+            <label>Company 3: <input type="text" name="company3"></label>
+            <label>Address: <input type="text" name="company3_address"></label>
+            <label>Phone: <input type="text" name="company3_phone"></label>
+            <label>Supervisor: <input type="text" name="company3_supervisor"></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Educational Background</legend>
+            <label>School 1: <input type="text" name="school1"></label>
+            <label>Years Completed: <input type="text" name="school1_years"></label>
+            <label>Graduated? <input type="text" name="school1_grad"></label>
+            <label>Major/Degree: <input type="text" name="school1_major"></label>
+            <br><br>
+            <label>School 2: <input type="text" name="school2"></label>
+            <label>Years Completed: <input type="text" name="school2_years"></label>
+            <label>Graduated? <input type="text" name="school2_grad"></label>
+            <label>Major/Degree: <input type="text" name="school2_major"></label>
+            <br><br>
+            <label>School 3: <input type="text" name="school3"></label>
+            <label>Years Completed: <input type="text" name="school3_years"></label>
+            <label>Graduated? <input type="text" name="school3_grad"></label>
+            <label>Major/Degree: <input type="text" name="school3_major"></label>
+        </fieldset>
+                <button type="submit">Submit</button>
+
+    </form>
+</body>
+</html>
